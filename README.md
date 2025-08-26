@@ -36,7 +36,7 @@ pip install PySide6 keyring
 Run the app:
 
 ```bash
-python main.py
+python app.py
 ```
 
 When started:
@@ -78,19 +78,6 @@ Configurable options:
 * Auto-clear removes the password from **active clipboard buffer**, but **Windows Clipboard History (Win+V)** is separate and not cleared.
 * If `keyring` is not available, the password is stored **only in memory** and lost when the app exits.
 * Clipboard contents are inherently insecure – use auto-clear to reduce exposure.
-
----
-
-## 🛠️ Development
-
-Clone and run locally:
-
-```bash
-git clone https://github.com/yourusername/otp-tray.git
-cd otp-tray
-pip install -r requirements.txt
-python main.py
-```
 
 ---
 
